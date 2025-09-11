@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class productarray {
+    
+   
+public static void main(String[] args) {
+        Scanner src=new Scanner(System.in);
+        System.out.println("enter the value");
+        int size=src.nextInt();
+        int arr[] =new int[3];
+        int product=1;
+        for (int i=0;i<size;i++) {
+            arr[i]=src .nextInt();
+            product=product*arr[i];
+        }
+            
+                System.out.print(product);
+
+            }
+        
+            
+        }
+    
+    
+
