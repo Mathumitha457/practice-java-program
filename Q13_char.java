@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Q13_char {
+    public static void main(String[] args) {
+        Scanner src = new Scanner(System.in);
+        System.out.println("Enter the number");
+
+        char ch = src.next().charAt(0);
+
+            if((ch>='A' && ch<='Z')|| (ch>='a' && ch<='z')){
+                System.out.println("Alphabet");
+
+            }
+            else if(ch>=0 && ch<=9){
+                System.out.println("Digit");
+            }else{
+                System.out.println("Special");
+            }
+            src.close();
+     }
+        
+        }
+        
+        
+
+        
